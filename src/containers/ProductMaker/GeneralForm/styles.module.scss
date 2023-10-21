@@ -1,0 +1,35 @@
+.columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4px;
+}
+
+.schemaPriceColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row_label {
+  margin-right: 8px;
+  text-wrap: nowrap;
+}
+
+.row {
+  margin: 8px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.block {
+  min-width: 300px;
+  flex-grow: 1;
+}

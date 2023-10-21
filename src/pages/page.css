@@ -1,0 +1,25 @@
+.page {
+  display: flex;
+  gap: 16px;
+  min-height: calc(100vh - 96px);
+}
+
+.left_sidebar {
+  min-width: 240px;
+  width: 25%;
+  padding: 12px;
+  background-color: #ffffff;
+}
+
+.right_sidebar {
+  min-width: 240px;
+  width: 25%;
+  padding: 12px;
+  background-color: #ffffff;
+}
+
+.content {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffffff;
+}

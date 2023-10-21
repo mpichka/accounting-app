@@ -1,0 +1,24 @@
+// .card {
+//   width: 360px;
+//   padding: 12px;
+//   background-color: #ffffff;
+// }
+
+.item_summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save_product_button {
+  margin: 16px 0;
+  width: 100%;
+}
+
+.update_product_button {
+  width: 100%;
+}
+
+.delete_product_button {
+  margin-top: 16px;
+  width: 100%;
+}

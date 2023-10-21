@@ -1,0 +1,71 @@
+.form {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row {
+  position: relative;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row_highlight::after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-bottom: 1px solid #ff7875;
+  width: 100%;
+  pointer-events: none;
+}
+
+.row_input {
+  margin: 0 4px;
+}
+
+.row_inputs {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.row_inputs_general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form_header {
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.add_button_top {
+  width: 120px;
+}
+
+.total {
+  margin: 8px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  & .prefix {
+    margin: 0 8px;
+  }
+  & .suffix {
+    margin-left: 8px;
+  }
+}
